@@ -43,7 +43,7 @@ header nav a {
     font-size: 18px;
 }
 
-/* Styling for the logo in the nav */
+/* Logo and Welcome text*/
 header nav img {
     width: 100px;
     height: 100px;
@@ -52,7 +52,7 @@ header nav img {
 
 section h1 {
     text-align: center;
-    font-size: 36px;
+    font-size: 40px;
     margin: 20px 0;
 }
 
@@ -72,25 +72,28 @@ ul li {
     margin: 10px 0;
     font-weight: bold;
 }
+/* Logo and Welcome text*/
 
 
-/* Betting Odds Container using CSS Grid */
+/* Betting Odds Container*/
 .betting-odds-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
-    grid-template-rows: repeat(2, auto);   /* 2 equal rows */
-    gap: 20px;                             /* Space between boxes */
-    max-width: 1000px;                     /* Optional: Adjust the width */
-    margin: 0 auto;                        /* Center the grid */
-    padding: 20px;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, auto);  
+    gap: 20px;                             
+    max-width: 1500px;                    
+    margin: 0 auto;                        
+    padding: 5px;
+    width: 180vw;
 }
+/* Betting Odds Container*/
 
-/* Each betting box */
+
+/* betting box styling */
 .betting-box {
-    background-color: #fff;
+    background-color: #fbfbfb;
     border: 1px solid #ccc;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     border-radius: 5px;
     display: flex;
@@ -98,8 +101,9 @@ ul li {
     align-items: center;
     justify-content: space-between;
 }
+/* betting box styling */
 
-/* Styling for images inside the betting boxes */
+/* Styling on images inside the betting boxes */
 .betting-box img {
     width: 100%;
     height: auto;
@@ -107,15 +111,18 @@ ul li {
     margin-bottom: 20px;
     border-radius: 5px;
 }
+/* Styling on images inside the betting boxes */
 
-/* Style for odds text */
+
+/* Betting odds text styling */
 .betting-box div p {
     margin: 5px 0;
     font-size: 16px;
     text-align: left;
 }
+/* Betting odds text styling */
 
-/* Footer section styling */
+/* Footer section */
 footer {
     background-color: #333;
     color: white;
@@ -123,7 +130,7 @@ footer {
     width: 100vw;
     text-align: center;
     position: relative; 
-    bottom: 0; /* Positioned at the bottom of the page */
+    bottom: 0;
 }
 
 footer p {
@@ -143,3 +150,4 @@ footer a {
 footer a:hover {
     color: #f05454;
 }
+/* Footer section */
