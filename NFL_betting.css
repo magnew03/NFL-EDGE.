@@ -4,7 +4,7 @@ body {
     background-color: #ffffff;
     margin: 0;
     padding: 0;
-    color: #000000; /* Changed to black for better contrast */
+    color: #000000;
 }
 
 /* Positioning for the header */
@@ -15,7 +15,7 @@ header {
 
 .container {
     background-image: url('NFL.jpg');
-    background-repeat: no-repeat; /* Prevents the background from repeating */
+    background-repeat: no-repeat; 
     background-position: center;
     background-size: cover; 
     width: 100vw; 
@@ -25,13 +25,14 @@ header {
     align-items: center; 
     margin-top: 50px; 
 }
+
 /* Navigation bar */
 header nav {
     background-color: #000000;
     padding: 30px;
     display: flex; /* Flexbox for horizontal alignment */
-    align-items: center; /* Align vertically */
-    justify-content: space-between; /* Space between logo and nav links */
+    align-items: center; 
+    justify-content: space-between; 
     height: 5vh;
 }
 
@@ -42,7 +43,6 @@ header nav a {
     font-size: 18px;
 }
 
-
 /* Styling for the logo in the nav */
 header nav img {
     width: 100px;
@@ -50,7 +50,70 @@ header nav img {
     margin-right: 10px;
 }
 
-/* Navigation bar */
+section h1 {
+    text-align: center;
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+section p, section ul {
+    text-align: center;
+    margin: 10px auto;
+    max-width: 800px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+
+/* Betting Odds Container using CSS Grid */
+.betting-odds-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+    grid-template-rows: repeat(2, auto);   /* 2 equal rows */
+    gap: 20px;                             /* Space between boxes */
+    max-width: 1000px;                     /* Optional: Adjust the width */
+    margin: 0 auto;                        /* Center the grid */
+    padding: 20px;
+}
+
+/* Each betting box */
+.betting-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Styling for images inside the betting boxes */
+.betting-box img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Style for odds text */
+.betting-box div p {
+    margin: 5px 0;
+    font-size: 16px;
+    text-align: left;
+}
 
 /* Footer section styling */
 footer {
@@ -59,7 +122,7 @@ footer {
     padding: 30px;
     width: 100vw;
     text-align: center;
-    position: relative; /* Changed from absolute to relative */
+    position: relative; 
     bottom: 0; /* Positioned at the bottom of the page */
 }
 
@@ -80,4 +143,3 @@ footer a {
 footer a:hover {
     color: #f05454;
 }
-/* Footer section styling */
