@@ -133,6 +133,18 @@ footer {
     bottom: 0;
 }
 
+footer nav p {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Footer section */
+
 footer p {
     margin: 10px 0;
 }
