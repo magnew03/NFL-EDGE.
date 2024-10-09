@@ -10,9 +10,7 @@ body {
 /* Positioning for the header */
 header {
     position: relative;               /* Allows positioning of child elements relative to this header */
-    z-index: 1;                      /* Ensures header is above other elements if they overlap */
-}
-
+    z-index: 1;                      
 .container {
     background-image: url('NFL.jpg'); /* Sets a background image for the container */
     background-repeat: no-repeat;      /* Prevents the background from repeating */
