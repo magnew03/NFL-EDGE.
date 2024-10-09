@@ -1,85 +1,181 @@
 /* General styling for body and text */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    margin: 0;
-    padding: 0;
-    color: #000000; /* Changed to black for better contrast */
+    font-family: Arial, sans-serif;   /* Sets a clean, modern font for the body */
+    background-color: #ffffff;        /* Sets background color to white */
+    margin: 0;                        /* Removes default margin */
+    padding: 0;                       /* Removes default padding */
+    color: #000000;                   /* Sets text color to black for better contrast */
 }
 
 /* Positioning for the header */
 header {
-    position: relative; 
-    z-index: 1; 
+    position: relative;               /* Allows positioning of child elements relative to this header */
+    z-index: 1;                      /* Ensures header is above other elements if they overlap */
 }
 
 .container {
-    background-image: url('NFL.jpg');
-    background-repeat: no-repeat; /* Prevents the background from repeating */
-    background-position: center;
-    background-size: cover; 
-    width: 100vw; 
-    height: 60vh; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    margin-top: 50px; 
+    background-image: url('NFL.jpg'); /* Sets a background image for the container */
+    background-repeat: no-repeat;      /* Prevents the background from repeating */
+    background-position: center;       /* Centers the background image */
+    background-size: cover;            /* Scales the background image to cover the entire container */
+    width: 100vw;                     /* Sets the width to the full viewport width */
+    height: 60vh;                     /* Sets the height to 60% of the viewport height */
+    display: flex;                    /* Enables Flexbox for aligning child elements */
+    justify-content: center;          /* Centers child elements horizontally */
+    align-items: center;              /* Centers child elements vertically */
+    margin-top: 50px;                /* Adds a top margin to the container */
 }
 
-/* Navigation bar */
+/* Navigation bar styling */
 header nav {
-    background-color: #000000;
-    padding: 30px;
-    display: flex; /* Flexbox for horizontal alignment */
-    align-items: center; /* Align vertically */
-    justify-content: space-between; /* Space between logo and nav links */
-    height: 5vh;
+    background-color: #000000;        /* Sets the background color of the navigation bar to black */
+    padding: 30px;                    /* Adds padding inside the navigation bar */
+    display: flex;                    /* Uses Flexbox for horizontal alignment of items */
+    align-items: center;              /* Aligns items vertically in the center */
+    justify-content: space-between;    /* Distributes space evenly between items */
+    height: 5vh;                     /* Sets the height of the navigation bar */
 }
 
+/* Link styling in the navigation bar */
 header nav a {
-    color: rgb(255, 255, 255);
-    margin: 0 10px;
-    text-decoration: none;
-    font-size: 18px;
+    color: rgb(255, 255, 255);        /* Sets link text color to white */
+    margin: 0 10px;                   /* Adds horizontal margin between links */
+    text-decoration: none;             /* Removes underline from links */
+    font-size: 18px;                  /* Sets font size for links */
 }
 
-
-/* logo in the nav */
+/* Logo in the navigation bar */
 header nav img {
-    width: 100px;
-    height: 100px;
-    margin-right: 10px;
+    width: 100px;                     /* Sets the width of the logo */
+    height: 100px;                    /* Sets the height of the logo */
+    margin-right: 10px;               /* Adds margin to the right of the logo */
 }
 
-/* Navigation bar */
+/* Sign-in heading styling */
+.sign {
+    text-align: center;               /* Centers the text in the sign-in section */
+    font-size: 30px;                  /* Sets font size for the heading */
+    height: 10vh;                     /* Sets height for the sign-in section */
+    position: relative;               /* Allows positioning of this element */
+    top: -20px;                       /* Adjusts the vertical position upward */
+    left: 0px;                        /* No horizontal adjustment */
+}
 
+/* Input field styling for email */
+.email input {
+    padding: 15px;                    /* Adds space inside the input box */
+    font-size: 21px;                  /* Sets font size for the input text */
+    width: 300px;                     /* Sets width for the input box */
+    height: 10px;                     /* Sets height for the input box (can be adjusted for better visibility) */
+    text-align: center;               /* Centers the input text */
+    border: 1px solid #ccc;           /* Adds a light gray border around the input */
+    border-radius: 5px;               /* Rounds the edges of the input box */
+}
+
+/* Positioning for email input field */
+.email {
+    position: relative;               /* Allows positioning relative to its normal position */
+    top: -15px;                        /* No vertical adjustment */
+    left: 763px;                     /* Moves the input field horizontally to the right */
+}
+
+/* Input field styling for username */
+.username input {
+    padding: 15px;                    /* Adds space inside the input box */
+    font-size: 21px;                  /* Sets font size for the input text */
+    width: 300px;                     /* Sets width for the input box */
+    height: 10px;                     /* Sets height for the input box */
+    border: 1px solid #ccc;           /* Adds a light gray border around the input */
+    text-align: center;               /* Centers the input text */
+    border-radius: 5px;               /* Rounds the edges of the input box */
+    margin-bottom: 20px;              /* Adds space below the input field */
+}
+
+/* Positioning for username input field */
+.username {
+    position: relative;               /* Allows positioning relative to its normal position */
+    top: 10px;                       /* Moves the entire block downward */
+    left: 730px;                     /* Moves the entire block horizontally to the right */
+}
+
+/* Input field styling for password */
+.password input {
+    padding: 15px;                    /* Adds space inside the input box */
+    font-size: 21px;                  /* Sets font size for the input text */
+    width: 300px;                     /* Sets width for the input box */
+    height: 10px;                     /* Sets height for the input box */
+    text-align: center;               /* Centers the input text */
+    border: 1px solid #ccc;           /* Adds a light gray border around the input */
+    border-radius: 5px;               /* Rounds the edges of the input box */
+    margin-bottom: 20px;              /* Adds space below the input field */
+}
+
+/* Positioning for password input field */
+.password {
+    position: relative;               /* Allows positioning relative to its normal position */
+    top: 15px;                       /* Moves the entire block downward */
+    left: 735px;                     /* Moves the entire block horizontally to the right */
+}
+
+/* Input field styling for phone number */
+.phone input {
+    padding: 15px;                    /* Adds space inside the input box */
+    font-size: 21px;                   /* Sets font size for the input text */
+    width: 300px;                     /* Sets width for the input box */
+    height: 10px;                     /* Sets height for the input box */
+    text-align: center;               /* Centers the input text */
+    border: 1px solid #ccc;           /* Adds a light gray border around the input */
+    border-radius: 5px;               /* Rounds the edges of the input box */
+    margin-bottom: 20px;              /* Adds space below the input field */
+}
+
+/* Positioning for phone input field */
+.phone {
+    position: relative;    /* Allows positioning relative to its normal position */
+    top: 15px;             /* Moves the entire block downward */
+    left: 700px;           /* Moves the entire block horizontally to the right */
+}
+
+/* Button styling */
+.button button {
+    padding: 10px;       /* Adds padding inside the button */
+    font-size: 30px;      /* Sets font size for button text */
+    text-align: center;    /* Centers text within the button */
+    height: 10vh;          /* Sets the height of the button */
+    width: 20vw;           /* Sets the width of the button (adjustable for size) */
+}
+
+/* Centering the button */
+.button {
+    display: flex;       /* Uses Flexbox for centering */
+    justify-content: center;     /* Centers the button horizontally */
+    align-items: center;     /* Centers the button vertically */
+    height: 20vh;          /* Sets the height of the button's container */
+    position: relative;      /* Allows positioning of the button */
+    top: 40px;              /* Moves the entire block downward */
+    left: 30px;        /* Moves the entire block horizontally to the right */
+}
 
 /* Footer section styling */
 footer {
-    background-color: #333;
-    color: white;
-    padding: 30px;
-    width: 100vw;
-    text-align: center;
-    position: relative; 
-    bottom: 0; /* Positioned at the bottom of the page */
+    background-color: #333;      /* Sets footer background color to dark gray */
+    color: white;         /* Sets footer text color to white */
+    padding: 30px;          /* Adds padding inside the footer */
+    width: 100vw;            /* Sets footer width to the full viewport width */
+    text-align: center;      /* Centers text within the footer */
+    position: relative;      /* Allows positioning of footer relative to its normal position */
+    bottom: 0;              /* Positions footer at the bottom of the page */
+    top: 60px;              /* Moves footer down 60px from the top of the viewport */
 }
 
-footer p {
-    margin: 10px 0;
-}
-
+/* Footer text styling */
 footer nav p {
-    margin-bottom: 5px;
-    font-weight: bold;
+    margin-bottom: 30px;     /* Adds space below each paragraph in the footer */
+    font-weight: bold;          /* Makes the text bold */
 }
 
+/* Footer link styling */
 footer a {
-    color: white;
-    text-decoration: none;
+    color: white;              /* Sets footer link text color to white */
+    text-decoration: none;       /* Removes underline from links in the footer */
 }
-
-footer a:hover {
-    color: #f05454;
-}
-/* Footer section styling */
