@@ -103,10 +103,6 @@ footer {
     bottom: 0; /* Positioned at the bottom of the page */
 }
 
-footer p {
-    margin: 10px 0;
-}
-
 footer nav p {
     margin-bottom: 5px;
     font-weight: bold;
@@ -117,7 +113,4 @@ footer a {
     text-decoration: none;
 }
 
-footer a:hover {
-    color: #f05454;
-}
 /* Footer section styling */
