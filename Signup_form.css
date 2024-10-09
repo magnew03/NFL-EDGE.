@@ -138,22 +138,27 @@ header nav img {
 
 /* Button styling */
 .button button {
-    padding: 10px;       /* Adds padding inside the button */
-    font-size: 30px;      /* Sets font size for button text */
-    text-align: center;    /* Centers text within the button */
-    height: 10vh;          /* Sets the height of the button */
-    width: 20vw;           /* Sets the width of the button (adjustable for size) */
+    padding: 10px;               /* Adds padding inside the button */
+    font-size: 30px;             /* Sets font size for button text */
+    text-align: center;          /* Centers text within the button */
+    height: 60px;                /* Set a fixed height */
+    width: 300px;                /* Set a fixed width for an oval shape */
+    border-radius: 30px;         /* Rounds the corners to create an oval shape */
+    border: none;                /* Removes default button border */
+    background-color: #6b6e71;   /* Set a background color */
+    color: rgb(0, 0, 0);                /* Set text color */
+    cursor: pointer;             /* Changes cursor to pointer on hover */
 }
 
 /* Centering the button */
 .button {
-    display: flex;       /* Uses Flexbox for centering */
+    display: flex;               /* Uses Flexbox for centering */
     justify-content: center;     /* Centers the button horizontally */
-    align-items: center;     /* Centers the button vertically */
-    height: 20vh;          /* Sets the height of the button's container */
-    position: relative;      /* Allows positioning of the button */
-    top: 40px;              /* Moves the entire block downward */
-    left: 30px;        /* Moves the entire block horizontally to the right */
+    align-items: center;         /* Centers the button vertically */
+    height: 20vh;                /* Sets the height of the button's container */
+    position: relative;          /* Allows positioning of the button */
+    top: 10px;                   /* Moves the entire block downward */
+    left: 30px;                  /* Moves the entire block horizontally to the right */
 }
 
 /* Footer section styling */
