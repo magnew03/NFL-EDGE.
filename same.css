@@ -1,0 +1,72 @@
+/* General styling for body and text */
+body {
+    font-family: Arial, sans-serif;   /* Sets a clean, modern font for the body */
+    background-color: #ffffff;        /* Sets background color to white */
+    margin: 0;                        /* Removes default margin */
+    padding: 0;                       /* Removes default padding */
+    color: #000000;                   /* Sets text color to black for better contrast */
+}
+
+/* Positioning for the header */
+header {
+    position: relative;               /* Allows positioning of child elements relative to this header */
+    z-index: 1;                      /* Ensures header is above other elements if they overlap */
+}
+
+.container {
+    background-image: url('NFL.jpg'); /* Sets a background image for the container */
+    background-repeat: no-repeat;      /* Prevents the background from repeating */
+    background-position: center;       /* Centers the background image */
+    background-size: cover;            /* Scales the background image to cover the entire container */
+    width: 100vw;                     /* Sets the width to the full viewport width */
+    height: 60vh;                     /* Sets the height to 60% of the viewport height */
+    display: flex;                    /* Enables Flexbox for aligning child elements */
+    justify-content: center;          /* Centers child elements horizontally */
+    align-items: center;              /* Centers child elements vertically */
+    margin-top: 50px;                /* Adds a top margin to the container */
+}
+
+/* Navigation bar styling */
+header nav {
+    background-color: #000000;        /* Sets the background color of the navigation bar to black */
+    padding: 30px;                    /* Adds padding inside the navigation bar */
+    display: flex;                    /* Uses Flexbox for horizontal alignment of items */
+    align-items: center;              /* Aligns items vertically in the center */
+    justify-content: space-between;    /* Distributes space evenly between items */
+    height: 5vh;                     /* Sets the height of the navigation bar */
+}
+
+/* Link styling in the navigation bar */
+header nav a {
+    color: rgb(255, 255, 255);        /* Sets link text color to white */
+    margin: 0 10px;                   /* Adds horizontal margin between links */
+    text-decoration: none;             /* Removes underline from links */
+    font-size: 18px;                  /* Sets font size for links */
+}
+
+
+
+
+/* Footer section styling */
+footer {
+    background-color: #333;      /* Sets footer background color to dark gray */
+    color: white;         /* Sets footer text color to white */
+    padding: 30px;          /* Adds padding inside the footer */
+    width: 100vw;            /* Sets footer width to the full viewport width */
+    text-align: center;      /* Centers text within the footer */
+    position: relative;      /* Allows positioning of footer relative to its normal position */
+    bottom: 0;              /* Positions footer at the bottom of the page */
+    top: 60px;              /* Moves footer down 60px from the top of the viewport */
+}
+
+/* Footer text styling */
+footer nav p {
+    margin-bottom: 30px;     /* Adds space below each paragraph in the footer */
+    font-weight: bold;          /* Makes the text bold */
+}
+
+/* Footer link styling */
+footer a {
+    color: white;              /* Sets footer link text color to white */
+    text-decoration: none;       /* Removes underline from links in the footer */
+}
