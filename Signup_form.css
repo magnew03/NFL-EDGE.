@@ -24,7 +24,7 @@
 .email {
     position: relative;               /* Allows positioning relative to its normal position */
     top: -15px;                        /* No vertical adjustment */
-    left: 235px;                     /* Moves the input field horizontally to the right */
+    left: 485px;                     /* Moves the input field horizontally to the right */
 }
 
 /* Input field styling for username */
@@ -43,7 +43,7 @@
 .username {
     position: relative;               /* Allows positioning relative to its normal position */
     top: 10px;                       /* Moves the entire block downward */
-    left: 205px;                    /* Moves the entire block horizontally to the right */
+    left: 450px;                    /* Moves the entire block horizontally to the right */
 }
 
 /* Input field styling for password */
@@ -62,7 +62,7 @@
 .password {
     position: relative;               /* Allows positioning relative to its normal position */
     top: 15px;                       /* Moves the entire block downward */
-    left: 210px;                     /* Moves the entire block horizontally to the right */
+    left: 455px;                      /* Moves the entire block horizontally to the right */
 }
 
 /* Input field styling for phone number */
@@ -81,7 +81,7 @@
 .phone {
     position: relative;    /* Allows positioning relative to its normal position */
     top: 15px;             /* Moves the entire block downward */
-    left: 175px;  /* Moves the entire block horizontally to the right */
+    left: 420px;    /* Moves the entire block horizontally to the right */
 }
 
 /* Button styling */
@@ -106,8 +106,9 @@
     height: 20vh;                /* Sets the height of the button's container */
     position: relative;          /* Allows positioning of the button */
     top: 10px;                   /* Moves the entire block downward */
-    left: 30px;                  /* Moves the entire block horizontally to the right */
+    left: -15px;                  /* Moves the entire block horizontally to the right */
 }
+
 
 
 
