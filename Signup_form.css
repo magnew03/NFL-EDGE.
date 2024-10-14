@@ -11,7 +11,7 @@
 
 /* Input field styling for email */
 .email input {
-    padding: 15px;                    /* Adds space inside the input box */
+    padding: 15px;                      /* Adds space inside the input box */                 
     font-size: 21px;                  /* Sets font size for the input text */
     width: 300px;                     /* Sets width for the input box */
     height: 10px;                     /* Sets height for the input box (can be adjusted for better visibility) */
@@ -24,7 +24,7 @@
 .email {
     position: relative;               /* Allows positioning relative to its normal position */
     top: -15px;                        /* No vertical adjustment */
-    left: 763px;                     /* Moves the input field horizontally to the right */
+    left: 235px;                     /* Moves the input field horizontally to the right */
 }
 
 /* Input field styling for username */
@@ -43,7 +43,7 @@
 .username {
     position: relative;               /* Allows positioning relative to its normal position */
     top: 10px;                       /* Moves the entire block downward */
-    left: 730px;                     /* Moves the entire block horizontally to the right */
+    left: 205px;                    /* Moves the entire block horizontally to the right */
 }
 
 /* Input field styling for password */
@@ -62,7 +62,7 @@
 .password {
     position: relative;               /* Allows positioning relative to its normal position */
     top: 15px;                       /* Moves the entire block downward */
-    left: 735px;                     /* Moves the entire block horizontally to the right */
+    left: 210px;                     /* Moves the entire block horizontally to the right */
 }
 
 /* Input field styling for phone number */
@@ -81,7 +81,7 @@
 .phone {
     position: relative;    /* Allows positioning relative to its normal position */
     top: 15px;             /* Moves the entire block downward */
-    left: 700px;           /* Moves the entire block horizontally to the right */
+    left: 175px;  /* Moves the entire block horizontally to the right */
 }
 
 /* Button styling */
