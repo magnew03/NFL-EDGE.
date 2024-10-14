@@ -1,1 +1,70 @@
+/* Title section centering */
+.title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Game container */
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Adds space between game boxes */
+    margin: 20px auto;
+    max-width: 800px; /* Limits width of the container for a cleaner layout */
+}
+
+/* Game 1 section styling */
+.game1 {
+    background-color: #f0f8ff; /* Light blue background */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Full width inside the container */
+    padding: 20px;
+    text-align: center;
+}
+
+.game1 img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Game 2 section styling */
+.game2 {
+    background-color: #f0f8ff; /* Light blue background */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.game2 img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Game 3 section styling */
+.game3 {
+    background-color: #f0f8ff; /* Light blue background */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.game3 img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
 
