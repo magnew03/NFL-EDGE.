@@ -17,7 +17,7 @@
     font-size: 48px;
     color: #000000; /* Dark color for contrast */
     margin: 0; /* Remove default margin */
-    height: 71.5vh;
+    height: 72vh;
 }
 
 
@@ -50,5 +50,6 @@ section p a {
 section p a:hover {
     background-color: #008c9e;
 }
+
 
 
