@@ -14,10 +14,10 @@
 /* Title styling */
 .container h1 {
     text-align: center; /* Center text within the h1 */
-    font-size: 48px;
+    font-size: 47px;
     color: #000000; /* Dark color for contrast */
     margin: 0; /* Remove default margin */
-    height: 72vh;
+    height: 71.55vh;
 }
 
 
@@ -50,6 +50,7 @@ section p a {
 section p a:hover {
     background-color: #008c9e;
 }
+
 
 
 
