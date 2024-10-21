@@ -4,7 +4,6 @@ body {
     background-color: #ffffff;        /* Sets background color to white */
     margin: 0;                        /* Removes default margin */
     padding: 0;                       /* Removes default padding */
-    color: #000000;                   /* Sets text color to black for better contrast */
 }
 
 /* Positioning for the header */
