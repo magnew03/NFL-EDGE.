@@ -27,6 +27,7 @@ header {
 
 /* Navigation bar styling */
 header nav {
+    color: #000000;             /* White text color */
     background-color: #000000;         /* Sets the background color of the navigation bar to black */
     padding: 30px;                     /* Adds padding inside the navigation bar */
     display: flex;                     /* Uses Flexbox for horizontal alignment of items */
@@ -69,4 +70,3 @@ footer a {
     text-decoration: none;             /* Removes underline from links in the footer */
     font-weight: bold;                 /* Makes the link text bold */
 }
-
