@@ -53,7 +53,7 @@
     width: 300px;                     /* Sets width for the input box */
     height: 10px;                     /* Sets height for the input box */
     text-align: center;               /* Centers the input text */
-    border: 1px solid #ccc;           /* Adds a light gray border around the input */
+    border: 1px solid #ccc;           /* Adds a light grey border around the input */
     border-radius: 5px;               /* Rounds the edges of the input box */
     margin-bottom: 20px;              /* Adds space below the input field */
 }
