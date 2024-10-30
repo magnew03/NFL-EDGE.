@@ -17,7 +17,7 @@
     font-size: 47px;
     color: #000000; /* Dark color for contrast */
     margin: 0; /* Remove default margin */
-    height: 74vh;
+    height: 72.55vh;
 }
 
 
@@ -39,18 +39,18 @@ section p {
 section p a {
     display: inline-block;
     background-color: #00bcd4;
-    color: rgb(255, 250, 250);
+    color: #000000; /* Black text for contrast */
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 30px; /* Increased border-radius to make it oval */
     text-decoration: none;
     font-size: 18px;
     margin-top: 10px;
+    width: 200px; /* Fixed width to keep oval shape */
+    text-align: center;
 }
 
 section p a:hover {
     background-color: #008c9e;
 }
-
-
 
 
