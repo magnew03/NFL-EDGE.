@@ -1,1 +1,31 @@
+.title{
+    text-align: center;
+}
 
+#info{
+    text-align: center;
+}
+
+#box{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#button{
+    text-align: center;
+    height: 30dvh;
+    margin-top: 20px;
+    font-size: 18px; /* Increases font size */
+    padding: 60px 70px; /* Adds padding for a larger button */
+}
+
+#button button { /* Targeting the button specifically */
+    height: 60px;  /* Set a fixed height */
+    width: 300px;  /* Set a fixed width for an oval shape */
+    border-radius: 30px;   /* Rounds the corners to create an oval shape */
+    border: none;  /* Removes default button border */
+    font-size: 20px; /* Increases font size */
+    font-size: center;
+    padding: 15px 30px; /* Adds padding */
+    cursor: pointer;             /* Changes cursor to pointer on hover */
+}
