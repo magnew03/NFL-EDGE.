@@ -27,5 +27,7 @@
     font-size: 20px; /* Increases font size */
     font-size: center;
     padding: 15px 30px; /* Adds padding */
+    background-color: #6b6e71;   /* Set a background color */
+    color: rgb(0, 0, 0);                /* Set text color */
     cursor: pointer;             /* Changes cursor to pointer on hover */
 }
