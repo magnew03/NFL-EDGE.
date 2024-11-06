@@ -24,7 +24,7 @@
     width: 300px;  /* Set a fixed width for an oval shape */
     border-radius: 30px;   /* Rounds the corners to create an oval shape */
     border: none;  /* Removes default button border */
-    font-size: 20px; /* Increases font size */
+    font-size: 30px; /* Increases font size */
     font-size: center;
     padding: 15px 30px; /* Adds padding */
     background-color: #6b6e71;   /* Set a background color */
