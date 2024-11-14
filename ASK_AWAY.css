@@ -1,32 +1,37 @@
-.title{
+/* Centers text within elements with the class .title */
+.title {
     text-align: center;
 }
 
-#info{
+/* Centers text within the #info section */
+#info {
     text-align: center;
 }
 
-#box{
-    text-align: center;
-    margin-top: 40px;
+/* Centers text in #box and adds a top margin */
+#box {
+    text-align: center;          /* Aligns text to the center */
+    margin-top: 40px;            /* Adds 40px of space above the box */
 }
 
-#button{
-    text-align: center;
-    height: 30dvh;
-    margin-top: 20px;
-    font-size: 18px; /* Increases font size */
-    padding: 60px 70px; /* Adds padding for a larger button */
+/* Styles the #button container */
+#button {
+    text-align: center;          /* Centers text inside the button container */
+    height: 30dvh;               /* Sets the container's height to 30% of viewport height */
+    margin-top: 20px;            /* Adds 20px of space above the container */
+    font-size: 18px;             /* Sets default font size for text in this container */
+    padding: 60px 70px;          /* Adds padding around the container to make it larger */
 }
 
-#button button { /* Targeting the button specifically */
-    height: 60px;  /* Set a fixed height */
-    width: 300px;  /* Set a fixed width for an oval shape */
-    border-radius: 30px;   /* Rounds the corners to create an oval shape */
-    border: none;  /* Removes default button border */
-    font-size: 30px; /* Increases font size */
-    padding: 15px 30px; /* Adds padding */
-    background-color: #6b6e71;   /* Set a background color */
-    color: rgb(0, 0, 0);                /* Set text color */
-    cursor: pointer;             /* Changes cursor to pointer on hover */
+/* Styles the button inside the #button container */
+#button button { 
+    height: 60px;                /* Sets the button height to 60px */
+    width: 300px;                /* Sets the button width to 300px, creating an oval shape */
+    border-radius: 30px;         /* Rounds corners to make an oval button */
+    border: none;                /* Removes default border around the button */
+    font-size: 30px;             /* Sets button text size to 30px */
+    padding: 15px 30px;          /* Adds padding inside the button for spacing */
+    background-color: #6b6e71;   /* Sets a background color for the button */
+    color: rgb(0, 0, 0);         /* Sets the text color to black */
+    cursor: pointer;             /* Changes cursor to pointer when hovering over the button */
 }
